@@ -1,0 +1,162 @@
+.table9{
+	 padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #999;
+    height: 300px;
+    overflow-y: scroll;
+	display: block;
+    position: absolute;
+	font-size: 14px;
+
+}
+
+.table1{
+     padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #999;
+    height: 600px;
+    overflow-y: scroll;
+    display: block;
+    position: absolute;
+    font-size: 14px;
+
+}
+.logout_a
+{
+	background-color: white;
+}
+.logout_a a:hover{
+background-color: green;
+
+}
+
+
+
+@media print{
+    a.hiddenTab {
+        display:none;
+    }
+    .only-print{
+        display:block;
+    }
+}
+
+.ab12{
+            background-color: #1e5e59 !important;
+
+}
+
+   .user_card {
+            height: 400px;
+            width: 410px;
+            margin-top: auto;
+            margin-bottom: auto;
+            background: #1e5e59;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 5px;
+
+        }
+        .brand_logo_container {
+            position: absolute;
+            height: 170px;
+            width: 170px;
+            top: -75px;
+            border-radius: 50%;
+            background: #f3f1f8;
+            padding: 10px;
+            text-align: center;
+        }
+        .brand_logo {
+            height: 150px;
+            width: 150px;
+            border-radius: 1%;
+            }
+        .form_container {
+            margin-top: 100px;
+        }
+        .login_btn {
+            width: 100%;
+            color: white !important;
+        }
+        .login_btn:focus {
+            box-shadow: none !important;
+            outline: 0px !important;
+        }
+        .login_container {
+            padding: 0 2rem;
+        }
+        .input-group-text {
+            color: white !important;
+            border: 0 !important;
+            border-radius: 0.25rem 0 0 0.25rem !important;
+        }
+        .input_user,
+        .input_pass:focus {
+            box-shadow: none !important;
+            outline: 0px !important;
+        }
+        .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+            background-color: #c0392b !important;
+        }
+
+
+        .logocolor
+        {
+            background-color: #1e5e59 !important;
+            color: white;
+        }
+
+       
+        .bold1{
+            font-size: 20px;
+            
+        }
+
+
+        .notification {
+  color: white ;
+  background-color: white
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+.abnav{
+    background-color: white !important;
+}
+.cart12{
+    font-size: 20px !important;
+}
+
+.cart15{
+    font-size: 12px !important;
+}
+.notification:hover {
+  background: white;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+}
+
+  @media print {
+  #printPageButton {
+    display: none;
+  }
+}
